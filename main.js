@@ -11,11 +11,13 @@ var button = document.querySelector('.name_dog');
 button.addEventListener('click', yourDog);
 
 function yourDog (event){
+  if (input.value == ""){
+    console.log("No input value");
+  	output.innerText = "Some Dogs";
+  }
+  else{
 	console.log('Input text ' + input.value);
 	console.log('Original text ' + output.innerText);
-	output.innerText = input.value 
+	output.innerText = input.value
+   }
 }
-
-
-
-/*figure out how to include a default text in case the input is empty. */
