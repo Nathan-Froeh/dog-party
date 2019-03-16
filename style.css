@@ -1,48 +1,43 @@
+/*General styling for major part of the page*/
 * {
-	/*border: solid red 1px;*/
-	box-sizing:border-box;
-	font-family:'Open Sans', sans-serif;
-	margin:0px;
-	padding:0px;
+  /*border: solid red 1px; left here in case I need to move something later*/
+  box-sizing:border-box;
+  font-family:'Open Sans', sans-serif;
+  margin:0px;
+  padding:0px;
 }
 
 body{
-	background-color:#ffffff;
-	background-image:url(images/park2.jpg);
-	background-position:0px -68px;
-	background-repeat:no-repeat;
-	background-size:1075px 44%;
-	border:solid black 2px;
-	height:1345px;
-	width:1075px;
+  background-color:#ffffff;
+  background-image:url(images/park2.jpg);
+  background-position:0px -68px;
+  background-repeat:no-repeat;
+  background-size:1075px 44%;
+  border:solid black 2px;
+  height:1345px;
+  width:1075px;
 
 }
-/*.Background{
-	background-image: url(images/park.jpg);
-	background-repeat: no-repeat;
-	background-position:0px -68px;
-
-}*/
-
 
 /* Start Nav bar*/
+
 header{
-	  height:4.5%;
+  height:4.5%;
 }
 
 nav {
-	background-color: #75e2e6;
-	border-bottom:#048eaa solid;
-	height:100%;
-	width:100%;
+  background-color: #75e2e6;
+  border-bottom:#048eaa solid;
+  height:100%;
+  width:100%;
 }
-
 
 .logo{
-	 height:90%;
-	 margin-left:20px;
-	 margin-top:.3%
+  height:90%;
+  margin-left:20px;
+  margin-top:.3%
 }
+
 ul,
 li{
   display:inline;
@@ -57,141 +52,137 @@ li{
   padding-top:20px;
 }
 
-
 /*Start Header section*/
+
 h1{
-   color:#ffffff;
-   font-size:33px;
-   font-weight:400;
-   margin-top:30px;
-   margin-left: 32%;
-   width:390px;
+  color:#ffffff;
+  font-size:33px;
+  font-weight:400;
+  margin-top:30px;
+  margin-left: 32%;
+  width:390px;
 }
 
 .h1_bold{
-	    font-weight:800;
+  font-weight:800;
 }
+
 .main_pic{
-	     border-radius:50%;
-	     border:solid #048eaa 4px;
-	     display:block;
-	     margin-top:30px;
-	     margin-left:42%;
-	     width:170px;
+  border-radius:50%;
+  border:solid #048eaa 4px;
+  display:block;
+  margin-top:30px;
+  margin-left:42%;
+  width:170px;
 }
 
 .name{
-	 margin-top:10px;
+  margin-top:10px;
 }
 
 label{
-	 display: block;
-     margin-top: 25px;
-     width: 370px;
-     color: #ffffff;
-     margin-left: 32%;
+  display: block;
+  margin-top: 25px;
+  width: 370px;
+  color: #ffffff;
+  margin-left: 32%;
 }
+
 input{
-	 display:block;
-	 height:45px;
-	 margin-top:5px;
-	 margin-left: 32%;
-	 width:370px;
+  display:block;
+  height:45px;
+  margin-top:5px;
+  margin-left: 32%;
+  width:370px;
 }
 
 button{
-	  background-color:#048eaa;
-	  border-radius:2px;
-	  color:#ffffff;
-	  display:block;
-	  font-size: 18px;
-	  height:45px;
-	  width:100%;
-
+  background-color:#048eaa;
+  border-radius:2px;
+  color:#ffffff;
+  display:block;
+  font-size: 18px;
+  height:45px;
+  width:100%;
 }
 
 .name_dog{
-	     background-color:#75e2e6;
-	     color:#000000;
-	     height:45px;
-	     margin-top:20px;
-	     width:370px;
-	     margin-left: 32%;
+  background-color:#75e2e6;
+  color:#000000;
+  height:45px;
+  margin-top:20px;
+  width:370px;
+  margin-left: 32%;
 }
 
 .s1{
-   height:30%;
+  height:30%;
 }
-
 
 .s2{
-   height:48%;
+  height:48%;
 }
 
-
 /*Start Info section*/
+
 h2{
   margin-left:18%;
   text-align: center;
   width:191px;
 }
 
-
-
-
-
 p{
- height:225px;
- margin-top:35px;
+  height:225px;
+  margin-top:35px;
 }
-
 
 article{
-	   float:left;
-	   height:86%;
-	   margin-left: 3.4%;
-       margin-top: 8%;
-	   width:29%;
-
+  float:left;
+  height:86%;
+  margin-left: 3.4%;
+  margin-top: 8%;
+  width:29%;
 }
+
 /*          try clearing float                */
 
-
 .pic{
-	border-radius:50%;
-	border: solid #048eaa 4px;
-	display:block;
-	margin-top: 10%;
-	margin-left: 22%;
-	width:170px;
+  border-radius:50%;
+  border: solid #048eaa 4px;
+  display:block;
+  margin-top: 10%;
+  margin-left: 22%;
+  width:170px;
 }
-
-
 
 /*Start Footer*/
 
 footer{
-	  background-color: #048eaa;
-	  height:15.3%;
-	  padding:5px;
+  background-color: #048eaa;
+  height:15.3%;
+  padding:5px;
 }
+
 .foot_tag{
-	     height:85px;
-	     margin-left:40%;
-	     width:220px;
+  height:85px;
+  margin-left:40%;
+  width:220px;
 }
+
 .foot_text{
-	      color:#ffffff;
-	      height:15px;
-	      margin-left: 7%;
-	      width:200px;
+  color:#ffffff;
+  height:15px;
+  margin-left: 7%;
+  width:200px;
 }
+
 .foot_img{
-	     margin-top:22px;
+  margin-top:22px;
 	/*margin:auto;                      */
 }
+
 .icon{
-	 margin-left:2%;
+  margin-left:2%;
 }
 
 
