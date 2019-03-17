@@ -43,7 +43,6 @@ li{
   display:inline;
   float:right;
   list-style:none;
-  /*padding:0px;                */
 }
 
 li{
@@ -143,8 +142,6 @@ article{
   margin-top: 8%;
   width:29%;
 }
-
-/*          try clearing float                */
 
 .pic{
   border-radius:50%;
