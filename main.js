@@ -10,7 +10,7 @@ var button = document.querySelector('.name_dog');
 
 button.addEventListener('click', yourDog);
 
-function yourDog (event){
+function yourDog (){
   if (input.value == ""){
     console.log("No input value");
   	output.innerText = "Some Dogs";
@@ -19,5 +19,5 @@ function yourDog (event){
 	console.log('Input text ' + input.value);
 	console.log('Original text ' + output.innerText);
 	output.innerText = input.value
-   }
+  }
 }
